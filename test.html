@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sustain ABode - Your Path to a Greener Future">
+    <meta name="author" content="Sustain ABode">
+    <title>Sustain ABode - Your Sustainable Living Guide</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <style>
+      body {
+        background-image: url('https://static.vecteezy.com/system/resources/previews/046/604/890/non_2x/sustainable-home-with-solar-panels-and-a-green-roof-reducing-carbon-emissions-and-energy-consumption-photo.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: #000;
+        font-family: 'Arial', sans-serif;
+        padding-top: 70px;
+      }
+
+      .navbar {
+        background-color: #1b5e20;
+      }
+
+      .navbar-brand img {
+        max-height: 40px; /* Adjust the logo size as needed */
+        margin-right: 10px;
+      }
+
+      .section-header {
+        text-align: center;
+        padding: 20px 0;
+        background-color: rgba(56, 142, 60, 0.8);
+        color: white;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+
+      .hero {
+        background-color: rgba(56, 142, 60, 0.8);
+        color: #ffffff;
+        padding: 60px 20px;
+        text-align: center;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .section {
+        background-color: rgba(241, 248, 233, 0.9);
+        padding: 40px 20px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .card {
+        background-color: rgba(241, 248, 233, 0.9);
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 80%;
+        max-width: 600px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .compare-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 0;
+      }
+
+      .compare-section .card {
+        width: 45%;
+      }
+
+      .btn-custom {
+        background-color: #388e3c;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+
+      .btn-custom:hover {
+        background-color: #1b5e20;
+      }
+
+      .suburb-section {
+        margin: 50px 0;
+        padding: 20px;
+        background-color: rgba(241, 248, 233, 0.9);
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" href="#">
+          <img src="/Users/arvindhraghavan/Desktop/Bootstrap_Landing/logo.jpeg" alt="SustainABode Logo">
+          SustainABode
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="suburb-map.html">SustainScore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Compare</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Discover a sustainable suburb for your next home</h1>
+      <p>Align your home with your eco-values</p>
+    </section>
+
+    <!-- First Feature Section -->
+    <section class="section suburb-section">
+      <div class="section-header">
+        <h2>Suburb-Wise Sustainability Score</h2>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="/Users/arvindhraghavan/Desktop/Bootstrap_Landing/Overallmap.png" alt="Sustainability Map" class="img-fluid mb-4">
+          <h3>Find the suburb that best fits your criteria of sustainable living</h3>
+          <p>Evaluate neighborhoods based on sustainability indicators like public transport, education quality, and affordable housing options.</p>
+          <a href="suburb-map.html" class="btn btn-custom">Find Out More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compare Section -->
+    <section class="section compare-section">
+      <div class="section-header">
+        <h2>Compare & Contrast: Find the Greener Choice</h2>
+      </div>
+      <div class="card">
+        <div class="compare-section">
+          <div class="card">
+            <img src="/Users/arvindhraghavan/Desktop/Bootstrap_Landing/comparemap1.png" alt="Map Comparison 1" class="img-fluid">
+          </div>
+          <div class="card">
+            <img src="/Users/arvindhraghavan/Desktop/Bootstrap_Landing/Comparemap2.png" alt="Map Comparison 2" class="img-fluid">
+          </div>
+        </div>
+        <button class="btn btn-custom mt-4">Compare</button>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
